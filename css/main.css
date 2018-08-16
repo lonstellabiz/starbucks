@@ -289,14 +289,14 @@ body.fullscreen #play-control{
 	margin-right: 0;
 }
 
-.recent_work a.work_img{
+.recent_work span.work_img{
 	width: 262px;
 	height: 320px;
 	position: relative;
 }
 
 
-.recent_work a.work_title{
+.recent_work span.work_title{
 	display: inline-block;
 	text-decoration: none;
 	width: 262px;
@@ -311,7 +311,7 @@ body.fullscreen #play-control{
 	bottom: 0;
 }
 
-.recent_work .work:hover a.work_title{
+.recent_work .work:hover span.work_title{
 	bottom: 66px;
 }
 
