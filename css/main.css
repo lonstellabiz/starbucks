@@ -95,9 +95,6 @@ footer .f_cols ul li a,
 header nav ul li a,
 #box #submit{
 	transition:all .2s linear;
-	-webkit-transition:all .2s linear;
-	-moz-transition:all .2s linear;
-	-o-transition:all .2s linear;
 }
 
 
@@ -181,10 +178,6 @@ header nav ul li a:hover{
 	font-size: 18px;
 	text-transform: uppercase;
 	text-decoration: none;
-
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	-o-border-radius: 100px;
 	border-radius: 100px;
 }
 
@@ -255,7 +248,6 @@ body.fullscreen #play-control{
 	color: #727272;
 	margin-bottom: 80px;
 	line-height: 24px;
-`q12`
 }
 
 
@@ -362,9 +354,6 @@ body.fullscreen #play-control{
 	text-transform: uppercase;
 	font-size: 16px;
 
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	-o-border-radius: 100px;
 	border-radius: 100px;
 }
 
@@ -526,20 +515,4 @@ footer p{
 
 #box span{
   display: none;
-}
-
-::-webkit-input-placeholder {
-   color: #d1d0d0;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #d1d0d0;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #d1d0d0;
-}
-
-:-ms-input-placeholder {
-   color: #d1d0d0;
 }
