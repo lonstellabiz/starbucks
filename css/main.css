@@ -390,6 +390,10 @@ body.fullscreen #play-control{
 	background: url('../img/sm.png') no-repeat;
 }
 
+.social span{
+  display: none;
+}
+
 .social a:last-child{
 	margin-right: 0;
 }
