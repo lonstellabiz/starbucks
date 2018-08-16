@@ -524,6 +524,10 @@ footer p{
   color: #424242;
 }
 
+#box span{
+  display: none;
+}
+
 ::-webkit-input-placeholder {
    color: #d1d0d0;
 }
